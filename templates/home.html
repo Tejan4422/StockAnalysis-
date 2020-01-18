@@ -1,0 +1,37 @@
+<h1>Technical Analysis of Stocks</h1>
+
+  <form action = "{% url 'predict' %}" method = 'post'>
+    For Prediction<br>
+    {% csrf_token %}
+
+    Company name:<br>
+    <input type="text" name="companyname" ><br>
+    Start Date:<br>
+    <input type="text" name="startdate" ><br>
+    End Date:<br>
+    <input type="text" name="enddate" ><br>
+    <br>
+    <input type = "submit" value = "Predict"><br>
+    <br>
+    {{result}}
+
+
+  </form>
+
+
+    <form action = "{% url 'visualize' %}" method = 'post'>
+      For Visualization<br>
+      {% csrf_token %}
+
+      Company name:<br>
+      <input type="text" name="companyname" ><br>
+      Start Date:<br>
+      <input type="text" name="startdate" ><br>
+      End Date:<br>
+      <input type="text" name="enddate" ><br>
+      <br>
+      <input type = "submit" value = "visualize"><br>
+      <br>
+
+
+  </form>
