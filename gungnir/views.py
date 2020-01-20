@@ -13,7 +13,6 @@ import csv
 import sklearn
 import matplotlib as plt
 from sklearn.svm import SVR
-from .models import Cal
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.svm import SVR
@@ -21,8 +20,7 @@ from sklearn.svm import SVR
 
 def homepage(request):
 
-    c = 'Tejan'
-    return render(request, 'home.html', {'result': c})
+    return render(request, 'home1.html')
 
 
 def predict(request):
@@ -115,6 +113,15 @@ def predict(request):
     'dlow' : decision_low, 'slow' : svr_low, 'rhigh': random_high,
     'dhigh' : decision_high, 'shigh' : svr_high, 'rclose': random_close,
     'dclose' : decision_close, 'sclose' : svr_close})
+
+
+
+
+
+
+
+
+
 
 def visualize(request):
     company = request.POST['companyname']
