@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'visualize.apps.VisualizeConfig',
+    'visualizedata.apps.VisualizedataConfig',
     'aboutus.apps.AboutusConfig',
     'django.contrib.admin',
     'django.contrib.auth',

@@ -20,7 +20,14 @@ from sklearn.svm import SVR
 
 def homepage(request):
 
-    return render(request, 'home1.html')
+
+    company = request.POST.get('cname')
+    sd = request.POST.get('sdate')
+    ed = request.POST.get('edate')
+    print(company,sd,ed)
+
+    result = 'Tejan Gavandi'
+    return render(request, 'home.html', {'result' : result})
 
 
 def predict(request):
@@ -118,6 +125,11 @@ def predict(request):
 
 
 
+
+def visualize1(request):
+
+
+    return render(request, 'visualize.html')
 
 
 
