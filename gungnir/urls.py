@@ -11,5 +11,6 @@ urlpatterns = [
     path('', views.homepage, name = 'home'),
     #path('visualize/', views.visualize1, name = 'visualize'),
     path('predict/', views.predict, name = 'predict'),
-    path('visualize/', include('visualizedata.urls'))
+    path('visualize/', include('visualizedata.urls')),
+    path('aboutus/', include('aboutus.urls'))
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
