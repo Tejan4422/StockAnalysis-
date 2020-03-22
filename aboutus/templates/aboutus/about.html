@@ -66,7 +66,7 @@
       <div class="container">
         <h1>Stock Market Analysis</h1>
         <p class="lead text-muted text-black">This project is entirely intended for research purpose.
-        please do thorough research of market before using any algorithm to invest your money.
+        Please do thorough research of market before using any algorithm to invest your money.
         If any queries please feel free to mail us your queries.</p>
         <p>
           <a href="mailto:tejan.jack@gmail.com?subject = Feedback&body = Message" class="btn btn-primary my-2">Email Us</a>
@@ -75,11 +75,24 @@
     </section>
 
 
+    <div class = "container"  align = "center">
     {% for aboutus in aboutus.all %}
 
-        <img class="card-img-top" width="50" height="50" src = "{{aboutus.image.url }}">
+        <img  width="300" height="300" src = "{{aboutus.image.url }}"  >
 
       {% endfor %}
+    </div>
+
+
+    <div class = 'container' align = "center">
+          <p align = 'center'>Developer</p>
+          <p align = 'center'>Contact : +91 9765824422</p>
+          <p align = 'center'>Email : tejan.jack@gmail.com</p>
+          <p align = 'center'>Address : 737/1/2 PL NO 5 Era park annex</p>
+
+
+    </div>
+
 
 
 
