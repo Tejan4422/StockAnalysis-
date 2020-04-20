@@ -1,6 +1,6 @@
 # StockAnalysis-Stock Market Analysis and Prediction using Machine Learning algorithms. 
-##Use it to predict only stock values for the very next dat.
-###Overview
+#Use it to predict only stock values for the very next dat.
+#Overview
 *created a website which can predict following
     *HIGHEST values of a particular company
     *LOWEST values of a particular company
