@@ -16,6 +16,7 @@ from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.svm import SVR
+#from sklearn.ensemble import GrdientBoostingRegressor
 
 
 def homepage(request):
