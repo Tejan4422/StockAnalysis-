@@ -12,14 +12,14 @@
 * Use pandas-datareader package to connect to yahoo server to fetch dataframe
 
 ## Resources Used:
-** Python: ** 3.7
-** Packages : ** pandas, pnadas-datareader, sklearn, numpy, requests, django, matplotlib, seaborn
+**Python: ** 3.7
+**Packages : ** pandas, pnadas-datareader, sklearn, numpy, requests, django, matplotlib, seaborn
 
 ## Case Studies:
 ![alt text](https://github.com/Tejan4422/StockAnalysis-/blob/master/Case%20Studies/Fig_AXIS_Low.png "Model Performance")
 ![alt text](https://github.com/Tejan4422/StockAnalysis-/blob/master/Case%20Studies/Fig_AXIS_High.png "Model Performance")
 ![alt text](https://github.com/Tejan4422/StockAnalysis-/blob/master/Case%20Studies/Fig_AXIS_Close.png "Model Performance")
-![alt text](https://github.com/Tejan4422/StockAnalysis-/blob/master/Case%20Studies/Fig_AXIB_Low.png"Model Performance")
+![alt text](https://github.com/Tejan4422/StockAnalysis-/blob/master/Case%20Studies/Fig_AXIB_Low.png "Model Performance")
 ![alt text](https://github.com/Tejan4422/StockAnalysis-/blob/master/Case%20Studies/Fig_ASHOKLEYLAND_Close.png "Model Performance")
 
 ## Model Building:
